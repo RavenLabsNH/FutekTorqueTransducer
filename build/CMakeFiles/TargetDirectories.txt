@@ -1,0 +1,5 @@
+/home/dyno/Downloads/futek_usb_linux_x86_64/FUTEK_USB-x86_64/build/CMakeFiles/bind_test.dir
+/home/dyno/Downloads/futek_usb_linux_x86_64/FUTEK_USB-x86_64/build/CMakeFiles/edit_cache.dir
+/home/dyno/Downloads/futek_usb_linux_x86_64/FUTEK_USB-x86_64/build/CMakeFiles/rebuild_cache.dir
+/home/dyno/Downloads/futek_usb_linux_x86_64/FUTEK_USB-x86_64/build/pybind11/CMakeFiles/edit_cache.dir
+/home/dyno/Downloads/futek_usb_linux_x86_64/FUTEK_USB-x86_64/build/pybind11/CMakeFiles/rebuild_cache.dir
