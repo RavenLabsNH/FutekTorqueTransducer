@@ -22,5 +22,5 @@ endif()
 add_subdirectory(pybind11)
 include_directories(thirdparty)
 pybind11_add_module(bind_test main.cpp)
-target_link_libraries(bind_test PUBLIC ${fucxcv     tekLib} ${ftd2xxLib})
+target_link_libraries(bind_test PUBLIC ${futekLib} ${ftd2xxLib})
 
