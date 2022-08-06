@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.4)
 project(pybind_test)
+# include_directories(${CMAKE_SOURCE_DIR}/thirdparty/include)
+# link_directories(${CMAKE_SOURCE_DIR}/thirdparty/lib)
+add_subdirectory(pybind11)
 
 find_library(futekLib FUTEK_USB-x86_64)
 
@@ -18,9 +21,6 @@ else()
 endif()
 
 
-
-add_subdirectory(pybind11)
 include_directories(thirdparty)
 pybind11_add_module(bind_test main.cpp)
 target_link_libraries(bind_test PUBLIC ${futekLib} ${ftd2xxLib})
-

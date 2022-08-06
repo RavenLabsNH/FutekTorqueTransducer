@@ -12,11 +12,16 @@ int main(){
     BYTE channelNumber = 0;
 
 
+    cout << "Start" << endl;
     string sn = dll.Get_Device_Serial_Number(0);
+    cout << "After Get_Device_Serial_NUmber" << endl;
     char *serialNumber = new char[sn.length() + 1];
     strcpy(serialNumber, sn.c_str());
+    cout << "After stcpy" << endl;
     dll.Open_Device_Connection(serialNumber);
+    cout << "After Open_Device_Connection" << endl;
     deviceHandle = dll.DeviceHandle;
+    cout << "After DeviceHandle" << endl;
 
     cout << "Device Information" << endl;
     cout << endl;
