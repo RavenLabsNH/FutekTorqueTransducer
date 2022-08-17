@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o futek.cpython-310-x86_64-linux-gnu.so CMakeFiles/futek.dir/main.cpp.o   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lFUTEK_USB-x86_64 /usr/local/lib/libftd2xx.so 
